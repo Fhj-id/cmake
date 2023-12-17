@@ -1,0 +1,77 @@
+[
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -I/home/fl/code/learnlab/cmake/include -g -o CMakeFiles/calc.dir/src/add.c.o -c /home/fl/code/learnlab/cmake/src/add.c",
+  "file": "/home/fl/code/learnlab/cmake/src/add.c"
+},
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -I/home/fl/code/learnlab/cmake/include -g -o CMakeFiles/calc.dir/src/div.c.o -c /home/fl/code/learnlab/cmake/src/div.c",
+  "file": "/home/fl/code/learnlab/cmake/src/div.c"
+},
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -I/home/fl/code/learnlab/cmake/include -g -o CMakeFiles/calc.dir/src/mult.c.o -c /home/fl/code/learnlab/cmake/src/mult.c",
+  "file": "/home/fl/code/learnlab/cmake/src/mult.c"
+},
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -I/home/fl/code/learnlab/cmake/include -g -o CMakeFiles/calc.dir/src/sub.c.o -c /home/fl/code/learnlab/cmake/src/sub.c",
+  "file": "/home/fl/code/learnlab/cmake/src/sub.c"
+},
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -I/home/fl/code/learnlab/cmake/include -g -o CMakeFiles/calc.dir/main.c.o -c /home/fl/code/learnlab/cmake/main.c",
+  "file": "/home/fl/code/learnlab/cmake/main.c"
+},
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -Dcalcdong_EXPORTS -I/home/fl/code/learnlab/cmake/include -g -fPIC -o CMakeFiles/calcdong.dir/src/add.c.o -c /home/fl/code/learnlab/cmake/src/add.c",
+  "file": "/home/fl/code/learnlab/cmake/src/add.c"
+},
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -Dcalcdong_EXPORTS -I/home/fl/code/learnlab/cmake/include -g -fPIC -o CMakeFiles/calcdong.dir/src/div.c.o -c /home/fl/code/learnlab/cmake/src/div.c",
+  "file": "/home/fl/code/learnlab/cmake/src/div.c"
+},
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -Dcalcdong_EXPORTS -I/home/fl/code/learnlab/cmake/include -g -fPIC -o CMakeFiles/calcdong.dir/src/mult.c.o -c /home/fl/code/learnlab/cmake/src/mult.c",
+  "file": "/home/fl/code/learnlab/cmake/src/mult.c"
+},
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -Dcalcdong_EXPORTS -I/home/fl/code/learnlab/cmake/include -g -fPIC -o CMakeFiles/calcdong.dir/src/sub.c.o -c /home/fl/code/learnlab/cmake/src/sub.c",
+  "file": "/home/fl/code/learnlab/cmake/src/sub.c"
+},
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -Dcalcdong_EXPORTS -I/home/fl/code/learnlab/cmake/include -g -fPIC -o CMakeFiles/calcdong.dir/main.c.o -c /home/fl/code/learnlab/cmake/main.c",
+  "file": "/home/fl/code/learnlab/cmake/main.c"
+},
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -I/home/fl/code/learnlab/cmake/include -g -o CMakeFiles/app.dir/src/add.c.o -c /home/fl/code/learnlab/cmake/src/add.c",
+  "file": "/home/fl/code/learnlab/cmake/src/add.c"
+},
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -I/home/fl/code/learnlab/cmake/include -g -o CMakeFiles/app.dir/src/div.c.o -c /home/fl/code/learnlab/cmake/src/div.c",
+  "file": "/home/fl/code/learnlab/cmake/src/div.c"
+},
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -I/home/fl/code/learnlab/cmake/include -g -o CMakeFiles/app.dir/src/mult.c.o -c /home/fl/code/learnlab/cmake/src/mult.c",
+  "file": "/home/fl/code/learnlab/cmake/src/mult.c"
+},
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -I/home/fl/code/learnlab/cmake/include -g -o CMakeFiles/app.dir/src/sub.c.o -c /home/fl/code/learnlab/cmake/src/sub.c",
+  "file": "/home/fl/code/learnlab/cmake/src/sub.c"
+},
+{
+  "directory": "/home/fl/code/learnlab/cmake/build",
+  "command": "/usr/bin/gcc -I/home/fl/code/learnlab/cmake/include -g -o CMakeFiles/app.dir/main.c.o -c /home/fl/code/learnlab/cmake/main.c",
+  "file": "/home/fl/code/learnlab/cmake/main.c"
+}
+]

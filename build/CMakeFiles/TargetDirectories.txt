@@ -1,3 +1,5 @@
+/home/fl/code/learnlab/cmake/build/CMakeFiles/calc.dir
+/home/fl/code/learnlab/cmake/build/CMakeFiles/calcdong.dir
 /home/fl/code/learnlab/cmake/build/CMakeFiles/app.dir
 /home/fl/code/learnlab/cmake/build/CMakeFiles/edit_cache.dir
 /home/fl/code/learnlab/cmake/build/CMakeFiles/rebuild_cache.dir
