@@ -1,0 +1,68 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc 生成活动文件",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-I",
+                "${fileDirname}/include",
+                "-g",
+                "${file}",
+                "${fileDirname}/src/*.c",
+                "-o",
+                "${fileDirname}/bin/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        },
+        {
+            "type":"shell",
+            "label": "运行二进制文件",
+            "command": "${fileDirname}/bin/${fileBasenameNoExtension}",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "运行二进制文件"
+        },
+        {
+            "type":"shell",
+            "label": "清除二进制文件",
+            "command": "rm -rf ${fileDirname}/bin/${fileBasenameNoExtension}",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "清除二进制文件"
+        },
+        {
+            "type":"shell",
+            "label": "编译并运行",
+            "command":"echo \"编译并运行\"",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "编译并运行",
+            "dependsOn": [
+                "C/C++: gcc 生成活动文件",
+                "运行二进制文件"
+            ]
+        }
+    ],
+    "version": "2.0.0"
+}
