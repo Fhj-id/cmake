@@ -1,21 +1,27 @@
 {
     "tasks": [
         {
-            "type": "cppbuild",
+            "type": "shell",
+            "label": "打印当前文件路径",
+            "command": "echo ${workspaceFolder}",
+            "detail": "打印当前文件路径"
+        },
+        {
+            "type": "shell",
             "label": "C/C++: gcc 生成活动文件",
             "command": "/usr/bin/gcc",
             "args": [
                 "-fdiagnostics-color=always",
                 "-I",
-                "${fileDirname}/include",
+                "${workspaceFolder}/include",
                 "-g",
                 "${file}",
-                "${fileDirname}/src/*.c",
+                "${workspaceFolder}/src/*.c",
                 "-o",
-                "${fileDirname}/bin/${fileBasenameNoExtension}"
+                "${workspaceFolder}/bin/${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": [
                 "$gcc"
@@ -29,7 +35,7 @@
         {
             "type":"shell",
             "label": "运行二进制文件",
-            "command": "${fileDirname}/bin/${fileBasenameNoExtension}",
+            "command": "${workspaceFolder}/bin/${fileBasenameNoExtension}",
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -40,7 +46,7 @@
         {
             "type":"shell",
             "label": "清除二进制文件",
-            "command": "rm -rf ${fileDirname}/bin/${fileBasenameNoExtension}",
+            "command": "rm -rf ${workspaceFolder}/bin/${fileBasenameNoExtension}",
             "group": {
                 "kind": "build",
                 "isDefault": true

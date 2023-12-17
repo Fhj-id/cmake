@@ -1,2 +1,7 @@
-学习下Cmake的基本操作，以及如何使用Cmake来编译一个简单的C++程序。
+1.学习Cmake的基本操作，以及如何使用Cmake来编译一个简单的C++程序。
+2.vscode 中有三个可以调试/运行代码的方式，分别是：`launch.json`、`tasks.json`、`CMakeLists.txt`。
+    2.1 `launch.json`：在vscode中，按下F5，就会调用`launch.json`中的配置来运行代码。
+    2.2 `tasks.json`：大坑，只能在对应代码的目录下，才能调用`tasks.json`中的配置来运行代码。
+    2.3 `CMakeLists.txt`：在vscode中，按下F7，就会调用`CMakeLists.txt`中的配置来运行代码。
+3.参考
 网址 https://subingwen.cn/cmake/CMake-primer/index.html
